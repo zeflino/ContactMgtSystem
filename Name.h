@@ -4,8 +4,9 @@
 #ifndef NAME_H
 #define NAME_H
 
-#include <string>
 #include <iostream>
+#include "Address.h"
+#include "Name.h"
 
 using namespace std;
 
@@ -19,11 +20,10 @@ public:
     Name(string, string);
     void setLName(string);
     void setFName(string);
-    string getLName() const string;
-    
-
+    string getLName() const ;
+    string getFName() const;
+    string getFullName() const;
+    friend ostream& operator<<(ostream&o , const Name&rhs);
+    friend istream& operator>>(istream&in, Name&rhs);
 };
-
-
-
 #endif
