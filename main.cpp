@@ -72,7 +72,7 @@ void addContact(vector<Contact>& lst) {
     //creating the contact off of the user input
     Contact newContact(firstName, lastName, address, state, zip, phone);
 
-    //addint contact to the vector
+    //addincontact to the vector
     lst.push_back(newContact);
-    
+
 }

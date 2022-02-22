@@ -1,12 +1,11 @@
 //Zeferino Lino
-//This is my own work
+//this is my own work with in class examples shown by professor
 
 #ifndef NAME_H
 #define NAME_H
 
 #include <iostream>
 #include "Address.h"
-#include "Name.h"
 
 using namespace std;
 

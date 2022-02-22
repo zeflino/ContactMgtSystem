@@ -1,7 +1,8 @@
+//Zeferino Lino
+//this is my own work with in class examples shown by professor
 #include "Contact.h"
 
 Contact::Contact() {
-
     this->name = Name();
     this->address = Address();
     this->phone = "xxx-xxx-xxxx";
@@ -16,7 +17,7 @@ void Contact::setIdentifier() {
     identifier = totalCt;
 }
 
-Contact::Contact(string fName, string lName, string street, string city, string state, string zip) {
+Contact::Contact(string fName, string lName, string street, string state, string zip) {
     this->name = Name(fName, lName);
     this->address = Address(street, state, zip);
     this->phone = phone;
